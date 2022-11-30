@@ -74,6 +74,28 @@ button:focus {
   border-radius: 2px;
 }
 
+.current-index-page::after {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 4px;
+  background-color: var(--logo-color);
+  top: 77px;
+  left: 600px;
+  border-radius: 2px;
+}
+
+.current-portfolio-page::after {
+  content: "";
+  position: absolute;
+  width: 78px;
+  height: 4px;
+  background-color: var(--logo-color);
+  top: 77px;
+  left: 690px;
+  border-radius: 2px;
+}
+
 .section-header {
   border-bottom: 1px solid #ececec;
 }
