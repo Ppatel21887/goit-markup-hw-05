@@ -81,7 +81,7 @@ button:focus {
   height: 4px;
   background-color: var(--logo-color);
   top: 77px;
-  left: 600px;
+  left: 260px;
   border-radius: 2px;
 }
 
@@ -92,7 +92,7 @@ button:focus {
   height: 4px;
   background-color: var(--logo-color);
   top: 77px;
-  left: 690px;
+  left: 345px;
   border-radius: 2px;
 }
 
