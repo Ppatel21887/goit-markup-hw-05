@@ -105,6 +105,7 @@ button:focus {
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
 }
 
 /* .current-page::after {
@@ -120,7 +121,6 @@ button:focus {
 .navigation-item-link:hover,
 .navigation-item-link :focus {
   color: var(--logo-color);
-  text-decoration: underline;
 }
 
 .current-page {
@@ -131,7 +131,7 @@ button:focus {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 1116px;
+  bottom: -1px;
   display: block;
   width: 100%;
   height: 4px;
@@ -143,7 +143,7 @@ button:focus {
 }
 
 .navigation-item-link:hover::after,
-.navigation-item-link :focus::after {
+.navigation-item-link:focus::after {
   transform: scaleX(1);
 }
 
@@ -151,7 +151,7 @@ button:focus {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 1116px;
+  bottom: -1px;
   display: block;
   width: 100%;
   height: 4px;
